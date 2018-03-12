@@ -43,7 +43,7 @@ export default class SignupPage extends Component {
                         </div>
                         <div className="modal-body">
                             {error.length > 0 ?
-                                <div className="alert alert-danger fade in">{error}</div>
+                                <div className="alert alert-danger fade in" style={{opacity:'1'}}>{error}</div>
                                 : ''}
                             <form id="login-form"
                                 className="form col-md-12 center-block"
